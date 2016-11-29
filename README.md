@@ -39,3 +39,11 @@ Setting the filename to "2_host.com_443.exe" and running it without args will do
 ---
 
 Please visit http://tinymet.com for details.
+
+Compiling from source
+
+    Install masm32 in c:\masm32 “I’m using its msvcrt.lib”
+    Install Microsoft Visual Studio Express 2013 for Windows Desktop (VS 2015 WILL NOT WORK IF YOU DO NOT HAVE 2013,  they changed the compiler in 2015)
+    Clone TinyMet from Github, or just download the latest version as zip.
+    Open the solution, chose “Release”, click build “F7”.
+
